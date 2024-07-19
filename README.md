@@ -21,16 +21,12 @@ This series of notebooks can be run interactively on a Binder environment [![Bin
 
 You can also clone this repository and run them locally. For that you will need to have [Anaconda](https://www.anaconda.com/download) installed. Then you can follow the next steps:
 
-   .. code-block:: bash
-
     $ git clone https://github.com/OPENDAP/ESIP2024.git
     $ cd ESIP2024
     $ mamba env create -f binder/environment.yml
 	$ mamba activate ESIP2024	
 
 You can now run the notebooks on your local browser by doing
-
-   .. code-block:: bash
 
     $ jupyter lab
 
