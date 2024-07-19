@@ -31,9 +31,9 @@ You can now run the notebooks on your local browser by doing
     $ jupyter lab
 
 
-We only recommend start first with the
+**We only recommend start first** with the
 
-- ` Getting Started.ipynb` notebook.
+- ` GetStarted.ipynb` notebook.
 
 Since many of the notebooks will make use of a `.json` created there with the appropriate EDL token credentials.
 
