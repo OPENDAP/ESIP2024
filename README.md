@@ -1,19 +1,15 @@
-# Test Notebooks
+# Tutorial Notebooks for ESIP 2024
 
 
-Examples of OPeNDAP workflows for accessing, visualization and downloading data via OPeNDAP servers.
-Some of the examples include using the following packages
+OPeNDAP workflows that demonstrate access, visualization and downloading to remote data that is hosted in OPeNDAP servers. Here you will find examples that make of of data from
 
-Some of the examples will involve data from
+- NASA (via Earth Data Cloud access)
+- ESGF
 
-- NASA (Earth Data Cloud access)
-- NOAA
+The goal of this notebooks is to introduce several OPeNDAP concepts from the Client side, and thus involve develop basic understanding of
 
-Some examples will have the objective of understanding:
-
-- Different ways to inspect remote data before/without downloading to local machine
-- Understand DAP2 vs DAP4 protocols (CEs and fns)
-- Learn about different possible workflows that  
-- How to Find OPeNDAP data
-- User intermediate and advanced tools for analyzing data that is accessed via OPeNDAP (e.g. how to opening multiple files in parallel, and utilizing OceanSpy as an advanced workflows for visualizing vertical sections)
-- What's new?
+- Data URLs to access remote dataset.
+- Data URLs with constrant expressions (CEs) to subset remove data.
+- Understand DAP2 vs DAP4 models of OPeNDAP.
+- Lazy inspection of remote data via pydap and xarray.
+- Searching through different Portals to find OPeNDAP hosted Data.
