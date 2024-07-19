@@ -21,7 +21,7 @@ dependencies:
 - intake = 0.7
 - intake-xarray
 - pip:
-  - git+https://github.com/Mikejmnez/pydap.git@327
+  - git+https://github.com/Mikejmnez/pydap.git@326
   - jupyter-contrib-nbextensions
   - jupyterlab-rise
 
