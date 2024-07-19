@@ -1,0 +1,32 @@
+name: ipydap
+channels:
+- conda-forge
+dependencies:
+- pip
+- numpy
+- pydap
+- python = 3.10
+- netCDF4
+- Ipython
+- tqdm
+- aiohttp
+- pandas
+- bokeh
+- matplotlib
+- shapely
+- jupyterlab
+- cartopy
+- xarray
+- dask
+- scipy
+- intake = 0.7
+- intake-xarray
+- pip:
+  - git+https://github.com/pydap/pydap.git
+  - jupyter-contrib-nbextensions
+  - jupyterlab-rise
+  - bokodapviewer
+  - jupyter_server_proxy
+
+
+
