@@ -1,4 +1,4 @@
-name: ipydap
+name: ESIP2024
 channels:
 - conda-forge
 dependencies:
