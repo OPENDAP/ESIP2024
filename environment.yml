@@ -4,7 +4,6 @@ channels:
 dependencies:
 - pip
 - numpy
-- pydap
 - python = 3.10
 - netCDF4
 - Ipython
@@ -22,11 +21,9 @@ dependencies:
 - intake = 0.7
 - intake-xarray
 - pip:
-  - git+https://github.com/pydap/pydap.git
+  - git+https://github.com/Mikejmnez/pydap.git@327
   - jupyter-contrib-nbextensions
   - jupyterlab-rise
-  - bokodapviewer
-  - jupyter_server_proxy
 
 
 
